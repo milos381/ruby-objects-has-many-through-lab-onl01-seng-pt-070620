@@ -1,13 +1,13 @@
-class Song
+class Appointment
 
   @@all = []
 
   attr_accessor :name, :artist, :genre
 
-  def initialize(name, artist, genre)
-    @name = name
-    @artist = artist
-    @genre = genre
+  def initialize(date, doctor, patient)
+    @date = date
+    @doctor = doctor
+    @patient = patient
     @@all << self
   end
 
