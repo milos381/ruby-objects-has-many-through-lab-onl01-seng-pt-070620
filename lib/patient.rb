@@ -1,4 +1,4 @@
-class Patients
+class Patient
 
   @@all = []
 
