@@ -26,7 +26,7 @@ class Patient
 
   def doctors
     appointments.map do |appointment|  #why not each
-      appointment.patient
+      appointment.doctor
     end
   end
 
